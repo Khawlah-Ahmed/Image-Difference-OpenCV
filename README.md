@@ -1,6 +1,6 @@
 # Image-Difference-OpenCV
 
-The background of an image is made transparent by using image subtraction techniques. The steps taken are as below.
+The background of an object is made transparent by using image subtraction techniques. The steps taken are as below.
 -	Read the image without the object (must be a png image).
 -	Read the image with the object (must be a png image).
 -	Use the OpenCV function (cv2.absdiff(img1, img2)) to get the absolute value of the result of subtracting the two images.
